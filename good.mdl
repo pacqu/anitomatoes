@@ -1,0 +1,23 @@
+frames 60
+basename wowww
+push
+move 250 250 0 
+rotate x 360 spinnx
+rotate z 360 spinnz
+sphere 0 0 0 40
+vary spinnx 0 59 0 1
+vary spinnz 0 59 0 1
+pop
+push
+move 250 250 0
+rotate y 360 spiny
+rotate z 360 spinz
+torus 0 0 0 100 50
+vary spiny 10 55 0 1
+vary spinz 10 55 0 1
+pop
+push
+move 250 250 0
+rotate x 360 spiz
+torus 0 0 0 300 90
+vary spiz 20 55 0 1
